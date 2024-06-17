@@ -57,5 +57,4 @@ def update_bodyframe(frame):
 # Create the animation
 ani_bodyframe = anim.FuncAnimation(fig, update_bodyframe, frames=len(time_vec), interval=20, blit=True, repeat=False)
 
-
 plt.show()

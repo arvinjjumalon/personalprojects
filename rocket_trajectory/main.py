@@ -1,7 +1,11 @@
-from Sims.tools import rk4
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+from tools import rk4
 import pandas as pd
 import numpy as np
-import Sims.rocket_trajectory.src.eom as eom
+import rocket_trajectory.src.eom as eom
 import matplotlib.pyplot as plt
 
 # Initial state vector: [u, v, w, p, q, r, phi, theta, psi, x, y, z]

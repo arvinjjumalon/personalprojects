@@ -1,9 +1,13 @@
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from tools import rk4
 import src.eom as eom
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.animation as anim
-from tools import rk4
+
 
 # Example 2.2
 y0 = [-9000, 2000, 4000, -8000, 2000, 6000, 20, -29, 0, 70, 0, -5]
