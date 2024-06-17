@@ -1,3 +1,5 @@
+# Written by ArvinJay Jumalon
+
 import sys
 import os
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -10,7 +12,7 @@ import matplotlib.animation as anim
 
 
 # Example 2.2
-y0 = [-9000, 2000, 4000, -8000, 2000, 6000, 20, -29, 0, 70, 0, -5]
+y0 = [0, 0, 0, 3000, 0, 0, 10, 20, 30, 40, 0, 0]
 
 Grav = 6.67259e-20
 m1 = 1.e26
@@ -90,3 +92,5 @@ ani_bodyframe = anim.FuncAnimation(fig2, update_bodyframe, frames=len(time_vec),
 
 # Display the plots
 plt.show()
+
+# Written by ArvinJay Jumalon

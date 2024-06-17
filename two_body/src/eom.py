@@ -1,3 +1,5 @@
+# Written by ArvinJay Jumalon
+
 import numpy as np
 
 def twobody_ode2(state_vec, time, m_1, m_2):

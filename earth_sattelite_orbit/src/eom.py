@@ -1,3 +1,5 @@
+# Written by ArvinJay Jumalon
+
 import numpy as np
 
 def sattelite_orbit(state_vec, time, planet_mass, sattelite_mass):
