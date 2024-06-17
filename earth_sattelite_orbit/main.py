@@ -15,8 +15,8 @@ y0 = [8000, 0, 6000, 0, 5, 5] #Sattelite rx, ry, rz, vx, vy, vz
 
 earth_mass = cb.earth.mass
 earth_radius = cb.earth.radius
-sattelite_mass = 1000 #kg
-t0 = 0
+sattelite_mass = 1000   #kg
+t0 = 0                  #seconds
 tf = 4*60*60
 dt = 0.5
 
